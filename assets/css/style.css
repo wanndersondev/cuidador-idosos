@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    color: #666670;
+}
+body {
+    background-color: #f1f6fc31;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+nav {
+    height: 15vh;
+}
+nav a img {
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul a {
+    margin: 20px;
+    font-size: 16px;
+}
+nav .login {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-size: 17px;
+    color: #000;
+    transition: 0.7s;
+}
+nav .login:hover {
+    background-color: #000;
+    color: #fff;
+}
+.banner {
+    height: 85vh;
+    background: rgba(0, 0, 0, 0.5) url(/assets/img/medica-conversando-com-seu-paciente-mais-velho.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+}
+section, footer {
+    padding: 54px 0;
+}
+h1, p {
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 50px; 
+}
+p {
+    color: #0000009c;
+}
+.banner-text h1 {
+    text-align: center;
+    color: #fff;
+}
+.banner-text p {
+    color: #fff;
+}
+.banner-text .btn-cuidador {
+    background-color: rgb(82, 202, 120);
+    padding: 16px 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.7s;
+}
+.btn-cuidador:hover {
+    background-color: #fff;
+    color: rgb(142, 194, 169);
+}
