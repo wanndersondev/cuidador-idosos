@@ -1,0 +1,43 @@
+header {
+    background-image: linear-gradient(to left, var(--Cor-03), var(--Cor-04));
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.container {
+    display: flex;
+    width: 1100px;
+    height: 100%;
+}
+.container .headline {
+    max-width: 500px;
+}
+.container .headline .logo {
+    margin: 32px 0px 48px 0px;
+}
+.container .headline .logo a img {
+    width: 180px;
+}
+.container .headline .headline__text h2{
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .banner {
+    display: flex;
+    align-items: flex-end;
+}
+.container .banner .file-doc {
+    display: flex;
+    justify-content: center;
+}
+.container .banner .file-doc img {
+    width: 58%;
+}
+header .curve-01 {
+    position: absolute;
+    bottom: -4px;
+}
