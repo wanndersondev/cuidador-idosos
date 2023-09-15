@@ -1,0 +1,22 @@
+main {
+    background-color: var(--Branco);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.about {
+    flex: 1;
+}
+.about h2 {
+    color: var(--Azul-escuro);
+    font-size: 40px;
+    margin-bottom: 46px;
+}
+.about p {
+    color: var(--Cinza);
+    font-size: 22px;
+    line-height: 1.5;
+}
+.form__register {
+    flex: 1;
+}

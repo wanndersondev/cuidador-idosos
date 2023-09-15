@@ -8,8 +8,8 @@
    appearance: none;
    text-decoration: none;
    font-family: var(--font);
-   color: var(--Cor-01);
+   color: var(--Branco);
 }
 html, body {
-   background-color: var(--Cor-01);
+   background-color: red;
 }
