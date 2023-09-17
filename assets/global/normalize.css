@@ -11,5 +11,5 @@
    color: var(--Branco);
 }
 html, body {
-   background-color: red;
+   background-color: var(--Branco);
 }

@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+.services-form {
+    width: 100%; 
+}
+.services {
+    width: 50%;
+}
+.adm-medicines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid var(--Azul-claro);
+    border-radius: 5px;
+    padding: 15px;
+    transition: linear 0.4s;
+}
+.adm-medicines:hover {
+    background-color: var(--Azul-claro);
+    color: var(--Branco);
+}
+.services h3 {
+    font-size: 36px;
+    color: var(--Azul-escuro);
+    margin:20px 0 60px 0;
+}
+.adm-medicines img  {
+    width: 29px;
+    margin-right: 40px;
+}
+.adm-medicines p {
+    font-size: 18px;
+    color: var(--Preto);
+}

@@ -1,4 +1,4 @@
-header {
+.container-topo {
     background: rgb(0,76,128);
     background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
     height: 75vh;
@@ -38,7 +38,7 @@ header {
     justify-content: center;
 }
 .container .banner .file-doc img {
-    width: 315px;
+    width: 320px;
 }
 .curve-01 {
     position: absolute;
@@ -65,7 +65,6 @@ header {
 @media screen and (max-width: 991px) {
     header {
         height: 71vh;
-        background-color: rgb(242, 255, 0);
     }
     .container {
         width: 720px;
@@ -74,7 +73,7 @@ header {
         max-width: 800px;
     }
     .container .headline .logo {
-        margin: 70px 0px 60px 0px;
+        margin: 50px 0px 60px 0px;
     }
     .container .banner {
         max-width: 0px;
@@ -92,7 +91,7 @@ header {
         width: 540px;
     }
     .container .headline .logo {
-        margin: 50px 0px 50px 0px;
+        margin: 40px 0px 30px 0px;
     }
 }
 
