@@ -4,7 +4,6 @@
    box-sizing: border-box;
    outline: none;
    border: none;
-   line-height: 1;
    appearance: none;
    text-decoration: none;
    font-family: var(--font);

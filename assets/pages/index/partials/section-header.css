@@ -1,16 +1,26 @@
-.container-topo {
-    background: rgb(0,76,128);
-    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
-    height: 75vh;
+header {
     display: flex;
     justify-content: center;
     position: relative;
+    padding: 20px 15px 0 15px;
+    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
 }
 .container {
     display: flex;
-    max-width: 1140px;
-    height: 100%;
+    justify-content: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+.container-topo {
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 550px;
+}
+
 .container .headline {
     max-width: 530px;
 }
@@ -50,30 +60,13 @@
 /* Responsividade Para o Container */
 @media screen and (max-width: 1200px) {
     /* Adicione estilos específicos para esta resolução aqui */
-    .container {
-        padding: 0 40px;
-    } 
-
+    .container-topo {
+        max-width: 960px;
+    }
 }
-
-
-
-
-
-
-/* Para Laptop 1440x900 */
 @media screen and (max-width: 991px) {
-    header {
-        height: 71vh;
-    }
-    .container {
-        width: 720px;
-    }
-    .headline {
-        max-width: 800px;
-    }
-    .container .headline .logo {
-        margin: 50px 0px 60px 0px;
+    .container-topo{
+        max-width: 900px;
     }
     .container .banner {
         max-width: 0px;
@@ -81,17 +74,48 @@
     .container .banner .file-doc img {
         display: none;
     }
-    .curve-01 img {
-        display: none;
+    .services h3 {
+        font-size: 34px;
+        color: var(--Azul-escuro);
+        margin: 10px 0 40px 0;
+    }
+    .colunas-003 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+    }
+    .services, .form_register {
+        padding: 0;
+        margin-bottom: 15px;
+        max-width: 570px;
     }
 }
-/* Para iPad 1024x768 */
-@media screen and (max-width: 769px) {
-    .container {
-        width: 540px;
+@media screen and (max-width: 768px) {
+    .container-topo {
+        max-width: 540px;
     }
-    .container .headline .logo {
-        margin: 40px 0px 30px 0px;
+    .services, .form_register {
+        padding: 0;
+        max-width: 480px;
+    }
+    .services-form {
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 574px) {
+    .container-topo {
+        max-width: 510px;
+    }
+}
+@media screen and (max-width: 435px) {
+    .container-topo {
+        max-width: 404px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .container-topo {
+        max-width: 309px;
     }
 }
 

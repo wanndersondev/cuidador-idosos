@@ -2,15 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 50%;
+    max-width: 570px;
+    padding-left: 15px;
 }
 .content-form {
     background-color: var(--Branco);
-    width: 460px;
-    height: 420px;
+    width: 500px;
+    height: 425px;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 2px 2px 5px #c0c0c0, -2px -2px 5px #c0c0c0;
 }
 .title-form {
