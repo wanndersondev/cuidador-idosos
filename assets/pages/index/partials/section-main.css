@@ -1,0 +1,43 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    width: 100%;
+}
+.title-services h3 {
+    font-size: 36px;
+    color: var(--Azul-escuro);
+    margin:20px 0 60px 0;
+}
+.adm-care {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
+    border-radius: 4px;
+    padding: 20px 15px;
+    transition: linear 0.4s;
+}
+.adm-care img  {
+    width: 32px;
+    margin-right: 40px;
+}
+.adm-care p {
+    font-size: 20px;
+    color: var(--Branco);
+}
+
+/* Responsividade Principal 
+@media screen and (min-width: 992px) {
+    
+}
+*/

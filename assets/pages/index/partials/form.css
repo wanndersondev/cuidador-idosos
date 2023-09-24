@@ -1,14 +1,14 @@
-.form_register {
+.form-register {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     max-width: 570px;
-    padding-left: 15px;
+    padding-right: 15px;
 }
-.content-form {
+.form {
     background-color: var(--Branco);
     width: 500px;
-    height: 425px;
+    height: 450px;
     padding: 25px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px #c0c0c0, -2px -2px 5px #c0c0c0;
@@ -58,3 +58,9 @@
     background-color: transparent;
     font-size: 18px;
 }
+
+/* Responsividade Principal 
+@media screen and (min-width: 992px) {
+    
+}
+*/
