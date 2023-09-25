@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--Branco);
+}
+.footer {
+    display: flex;
+    max-width: 100%;
+    height: 250px;
+}
+.logo-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.logo-footer img {
+    width: 100px;
+}
+.descrition-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+}
+.descrition-footer a {
+    padding-left: 15px;
+    color: var(--Preto);
+}

@@ -1,5 +1,7 @@
 @import './../../global/global.css';
-@import './partials/form.css';
-@import './partials/section-main.css';
-@import './partials/section-footer.css';
 @import './partials/section-header.css';
+@import './partials/section-services.css';
+@import './partials/form.css';
+@import './partials/login.css';
+@import './partials/register.css';
+@import './partials/section-footer.css'

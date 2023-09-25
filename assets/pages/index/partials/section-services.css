@@ -1,4 +1,4 @@
-.main-content {
+.container-services {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 600px;
 }
 .services {
     width: 100%;
@@ -15,7 +16,7 @@
 .title-services h3 {
     font-size: 36px;
     color: var(--Azul-escuro);
-    margin:20px 0 60px 0;
+    margin: 0 0 60px 0;
 }
 .adm-care {
     display: flex;
@@ -23,8 +24,8 @@
     max-width: 100%;
     margin-bottom: 20px;
     background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
-    border-radius: 4px;
     padding: 20px 15px;
+    border-radius: 4px;
     transition: linear 0.4s;
 }
 .adm-care img  {

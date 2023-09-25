@@ -1,3 +1,119 @@
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    height: 765px;
+    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
+}
+.bg-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-form {
+    background-color: var(--Branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    box-shadow: 3px 3px 7px var(--Azul-escuro), -3px -3px 7px var(--Azul-escuro);
+}
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100%;
+    flex: 1;
+}
+.figure .img-fig {
+    width: 500px;
+    height: 500px;
+}
+.img-fig img {
+    width: 100%;
+}
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--Branco);
+    width: 500px;
+    height: 480px;
+    padding: 25px;
+    border-radius: 4px;  
+}
+.title-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.title-form h3 {
+    color: var(--Azul-escuro);
+    font-size: 34px;
+}
+.input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 23px;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 4px;
+}
+.input img {
+    width: 20px;
+    margin: 0 0 0 8px;
+}
+.input input {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px;
+    color: var(--Preto);
+}
+#btn {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Azul-claro);
+    padding: 18px;
+    border-radius: 5px;
+    transition: linear 0.4s;
+    margin-bottom: 23px;
+}
+#btn button {
+    color: var(--Branco);
+    background-color: transparent;
+    font-size: 18px;
+}
+#btn:hover {
+    background-color: var(--Azul-escuro);
+}
+.options-register {
+    display: flex;
+    width: 100%;
+}
+.options-register p {
+    margin-right: 8px;
+    color: var(--Preto);
+}
+.options-register a {
+    color: var(--Azul-claro);
+}
+.options-register a:hover {
+    text-decoration: underline;
+    color: var(--Azul-escuro);
+}
+
 /* Responsividade Principal 
 @media screen and (min-width: 992px) {
     

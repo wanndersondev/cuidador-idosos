@@ -11,8 +11,7 @@
     <header> <!-- Topo -->
         <div class="login-register">
             <div class="lg-rg">
-                <a href="login.html" target="_blank">Login</a>
-                <a href="register.html" target="_blank">Cadastrar-se</a>
+                <a href="#login">Login</a>
             </div>
         </div>
 
@@ -25,7 +24,7 @@
                     <!-- Logo -->
                     <div class="logo">
                         <a href="index.html">
-                            <img src="/files/img/logo.png" alt="logo">
+                            <img src="/files/img/logo-branco.png" alt="logo">
                         </a>
                     </div>
                     <!-- Descrição-->
@@ -41,48 +40,105 @@
                 <!-- Conteúdo perfil-cuidadora -->
                 <div class="profile">
                     <div class="photo-doc">
-                        <img src="./files/img/cuidadora1.png" alt="Cuidadora-Idosos">
+                        <img src="./files/img/cuidadora.png" alt="Cuidadora-Idosos">
                     </div>
                 </div>
             </div>
         </div>
         <!-- Faixa Ondulada -->
-        <div class="curve-01">
+        <div class="curve-1">
             <img src="/files/img/curva01.png" alt="Faixa">
         </div>
         
     </header>
-    <main class="main-content">
-        <section class="container container-fluid"> <!-- Container para serviços e formulário -->
-
+    <main>
+        <section class="container-services"> <!-- Container para serviços e formulário -->
             <!-- Serviços -->
-            <div class="services">
-                <div class="title-services">
-                    <h3>Serviços disponivéis</h3>
+            <div class="container container-fluid">
+                <div class="services">
+                    <div class="title-services">
+                        <h3>Serviços disponivéis</h3>
+                    </div>
+                    <!-- Links -->
+                    <a class="adm-care" href="#">
+                        <img src="/files/img/icon01.png" alt="Medicamentos">
+                        <p>Controle e administração de medicamentos.</p>
+                    </a>
+    
+                    <a class="adm-care" href="#">
+                        <img src="/files/img/icon02.png" alt="Medicamentos">
+                        <p>Banho e higiene pessoal.</p>
+                    </a>
+    
+                    <a class="adm-care" href="">
+                        <img src="/files/img/icon03.png" alt="Medicamentos">
+                        <p>Cuidados em todas as Atividades de Vida Diárias..</p>
+                    </a>
+    
+                    <a class="adm-care" href="">
+                        <img src="/files/img/icon04.png" alt="Medicamentos">
+                        <p>Auxílio na mobilidade para prevenção de quedas..</p>
+                    </a>
                 </div>
-                <!-- Links -->
-                <a class="adm-care" href="#">
-                    <img src="/files/img/icon01.png" alt="Medicamentos">
-                    <p>Controle e administração de medicamentos.</p>
-                </a>
+            </div>
+        </section>
+        <section id="login">
+            <div class="container bg-login">
+                <div class="bg-form">
+                    <!-- Figura -->
+                    <div class="figure">
+                        <div class="img-fig">
+                            <img src="./files/img/v869-wan-17.jpg" alt="Figura">
+                        </div>
+                    </div>
+                    <!-- Formulário Login -->
+                    <div class="form-login">
+                        <div class="form">
+                            <div class="title-form">
+                                <h3>Login</h3>
+                            </div>
+                            <form action="">
+                                <div class="input">
+                                    <img src="./files/img/user.png" alt="Usuário">
+                                    <input type="text" placeholder="Usuário">
+                                </div>
+                
+                                <div class="input">
+                                    <img src="./files/img/email.png" alt="Email">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                    
+                                <div class="input">
+                                    <img src="./files/img/senha.png" alt="Senha">
+                                    <input type="password" placeholder="Senha">
+                                </div>
 
-                <a class="adm-care" href="#">
-                    <img src="/files/img/icon02.png" alt="Medicamentos">
-                    <p>Banho e higiene pessoal.</p>
-                </a>
+                                <div id="btn">
+                                    <button>Fazer login</button>
+                                </div>
 
-                <a class="adm-care" href="">
-                    <img src="/files/img/icon03.png" alt="Medicamentos">
-                    <p>Cuidados em todas as Atividades de Vida Diárias..</p>
-                </a>
-
-                <a class="adm-care" href="">
-                    <img src="/files/img/icon04.png" alt="Medicamentos">
-                    <p>Auxílio na mobilidade para prevenção de quedas..</p>
-                </a>
+                                <div class="options-register">
+                                    <p>Não tem uma conta?</p>
+                                    <a href="register.html" target="_blank">Inscrever-se</a>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
+        <div class="container footer">
+            <div class="logo-footer">
+                <img src="/files/img/logo-preto.png" alt="Logo-Footer">
+            </div>
+            <div class="descrition-footer">
+                <a href="#">Ajuda</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
