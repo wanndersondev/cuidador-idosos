@@ -1,0 +1,45 @@
+.banner-pac {
+    position: relative;
+}
+.container-banner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.banner {
+    display: flex;
+    flex: 2;
+    height: 100%;
+}
+.banner img {
+    position: absolute;
+    bottom: 0px;
+    width: 950px;
+}
+.title-banner {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    height: 100%;
+}
+.title-banner p {
+    color: var(--Azul-escuro);
+    text-align: right;
+}
+.title-banner span {
+    display: block;
+    color: var(--Azul-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.curve-2 {
+    position: absolute;
+    bottom: 0px;
+}
+.curve-2 img {
+    width: 100%;
+}

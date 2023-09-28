@@ -1,12 +1,12 @@
-#login {
+#login-register {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 15px;
-    height: 765px;
-    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
+    height: 100vh;
+    background-color: var(--Branco);
 }
-.bg-login {
+.bg-login-register {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     align-items: center;
     width: 100%;
     height: 650px;
-    box-shadow: 3px 3px 7px var(--Azul-escuro), -3px -3px 7px var(--Azul-escuro);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .figure {
     display: flex;
@@ -35,7 +35,7 @@
 .img-fig img {
     width: 100%;
 }
-.form-login {
+.container__login-register {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@
     transition: linear 0.4s;
     margin-bottom: 23px;
 }
-#btn button {
+#btn #btn-login-register {
     color: var(--Branco);
     background-color: transparent;
     font-size: 18px;
@@ -98,22 +98,3 @@
 #btn:hover {
     background-color: var(--Azul-escuro);
 }
-.options-register {
-    display: flex;
-    width: 100%;
-}
-.options-register p {
-    margin-right: 8px;
-    color: var(--Preto);
-}
-.options-register a {
-    color: var(--Azul-claro);
-}
-
-
-
-/* Responsividade Principal 
-@media screen and (min-width: 992px) {
-    
-}
-*/

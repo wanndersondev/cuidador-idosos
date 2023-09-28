@@ -8,77 +8,73 @@ header {
     padding: 20px 15px 0 15px;
     background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
 }
-
-.login-register {
+.container {
+    width: 1140px;
+    height: 625px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-btn-lr {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 1140px;
-    height: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    height: 55px;
 }
-
-.lg-rg {
+.btn__login-register {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 165px;
-    height: 60px;
     gap: 10px;
 }
-.lg-rg a {
-    border: 2px solid var(--Branco);
-    padding: 12px 60px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: linear 0.3s;
+.btn__login-register a {
+    display: inline-block;
+    padding: 10px 20px;
     color: var(--Branco);
+    border: 1px solid var(--Branco);
+    border-radius: 3px;
+    transition: linear 0.2s;
+    font-weight: 500;
 }
-.lg-rg a:hover {
+.btn__login-register a:hover {
     background-color: var(--Branco);
     color: var(--Azul-escuro);
 }
-.container {
-    width: 1140px;
-    height: 550px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.btn__login-register span {
+    width: 1px;
+    height: 35px;
+    background-color: var(--Branco);
 }
 .container-topo {
     max-width: 100%;
     display: flex;
 }
-.content-log-desc, .profile {
+.box-log-desc, .box-profile {
     width: 570px;
 }
-.content-log-desc .logo {
+.box-log-desc .logo {
     margin: 20px 0 42px 0;
 }
 .logo a img {
     width: 180px;
 }
 .headline h2{
-    font-size: 34px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
-.container-topo .profile {
+.container-topo .box-profile {
     display: flex;
     justify-content: center;
     height: 550px;
 }
-.profile .photo-doc {
+.box-profile .photo {
     display: flex;
     justify-content: center;
 }
-.photo-doc img {
+.photo img {
     width: 100%;
 }
 .curve-1 {

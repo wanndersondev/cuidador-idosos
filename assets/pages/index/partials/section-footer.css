@@ -1,5 +1,6 @@
 footer {
-    background-color: var(--Branco);
+    position: relative;
+    background: linear-gradient(90deg, rgba(0,76,128,1) 0%, rgba(0,170,234,1) 100%);
 }
 .footer {
     display: flex;
@@ -13,7 +14,7 @@ footer {
     flex: 1;
 }
 .logo-footer img {
-    width: 100px;
+    width: 120px;
 }
 .descrition-footer {
     display: flex;
@@ -23,5 +24,5 @@ footer {
 }
 .descrition-footer a {
     padding-left: 15px;
-    color: var(--Preto);
+    color: var(--Branco);
 }
