@@ -41,7 +41,7 @@
                             <div class="title-form">
                                 <h3>Inscrever-se</h3>
                             </div>
-                            <form action="register.php" method="POST">
+                            <form action="valida_register.php" method="POST">
                                 <div class="input">
                                     <img src="./files/img/user.png" alt="Nome do Usuário">
                                     <input type="text" name="nome" placeholder="Nome" required minlength="2" maxlength="20">
