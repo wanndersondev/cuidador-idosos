@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detalhes do Paciente</title>
   <link rel="stylesheet" href="assets/pages/admin/admin_medicines.css">
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="files/img/favicon.png" type="image/x-icon">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -14,7 +14,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <img src="logo.png" alt="Logo">
+        <img src="files/img/logo-branco.png" alt="Logo" height="80">
       </div>
     </div>
   </header>
