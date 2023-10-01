@@ -42,7 +42,7 @@
 
                                 <div class="options-register">
                                     <p>Não tem uma conta?</p>
-                                    <a href="register.html">Inscrever-se</a>
+                                    <a href="http://localhost/cuidador-idosos/register.php">Inscrever-se</a>
                                     </div>
                             </form>
                         </div>
@@ -51,17 +51,5 @@
             </div>
         </section>
     </main>
-    <footer class="footer-2">
-        <div class="container footer">
-            <div class="logo-footer">
-                <img src="/files/img/logo-branco.png" alt="Logo-Footer">
-            </div>
-            <div class="descrition-footer">
-                <a href="#">Ajuda</a>
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>

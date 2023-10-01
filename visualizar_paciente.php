@@ -32,7 +32,8 @@
 
           if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
-            echo "<h1>{$row['nome']} {$row['sobrenome']}</h1>";
+            echo "<h1>{$row['nome_paciente']} {$row['sobrenome_paciente']}</h1>";
+            echo "<p><strong>Email:</strong> {$row['email_paciente']}</p>";
             echo "<p><strong>Idade:</strong> {$row['idade']}</p>";
             echo "<p><strong>Tipo Sanguíneo:</strong> {$row['tipo_sanguineo']}</p>";
             echo "<p><strong>Tipo de Diabetes:</strong> {$row['diabetes_type']}</p>";

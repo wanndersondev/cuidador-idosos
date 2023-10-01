@@ -4,7 +4,7 @@
     {
         include_once('config.php');
 
-        $nome = $_POST['nome'];
+        $nome = $_POST['nome_usuario'];
         $sobrenome = $_POST['sobrenome'];
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -44,12 +44,12 @@
                             <form action="valida_register.php" method="POST">
                                 <div class="input">
                                     <img src="./files/img/user.png" alt="Nome do Usuário">
-                                    <input type="text" name="nome" placeholder="Nome" required minlength="2" maxlength="20">
+                                    <input type="text" name="nome_usuario" placeholder="Nome do usuario" required minlength="2" maxlength="20">
                                 </div>
                 
                                 <div class="input">
                                     <img src="./files/img/user.png" alt="Sobrenome do usuário">
-                                    <input type="text" name="sobrenome" placeholder="Sobrenome">
+                                    <input type="text" name="sobrenome_usuario" placeholder="Sobrenome do Usuário">
                                 </div>
                     
                                 <div class="input">
@@ -77,18 +77,6 @@
             </div>
         </section>
     </main>
-    <footer class="footer-2">
-        <div class="container footer">
-            <div class="logo-footer">
-                <img src="/files/img/logo-branco.png" alt="Logo-Footer">
-            </div>
-            <div class="descrition-footer">
-                <a href="#">Ajuda</a>
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
 

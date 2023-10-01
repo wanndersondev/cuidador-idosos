@@ -42,8 +42,8 @@
           if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
               echo "<div class='patient-card'>";
-              echo "<h4>" . $row['nome'] . "</h4>";
-              echo "<h4>" . $row['sobrenome'] . "</h4>";
+              echo "<h4>" . $row['nome_paciente'] . "</h4>";
+              echo "<h4>" . $row['sobrenome_paciente'] . "</h4>";
               echo "<a href='visualizar_paciente.php?id=" . $row['id'] . "'>Ver Detalhes</a>";
 
               // Adicionando a seção para exibir os medicamentos do paciente
@@ -166,7 +166,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="horario_aplicacao">Horário de Aplicação de Insulina</label>
-                <input type="text" class="form-control" id="horario_aplicacao" name="horario_aplicacao" required>
+                <input type="time" class="form-control" id="horario_aplicacao" name="horario_aplicacao" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="medico_responsavel">Médico Responsável</label>
@@ -176,7 +176,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="contato_medico">Contato do Médico</label>
-                <input type="text" class="form-control" id="contato_medico" name="contato_medico" required>
+                <input type="tel" class="form-control" id="contato_medico" name="contato_medico" required>
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Cadastrar Paciente</button>
