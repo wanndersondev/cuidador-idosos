@@ -1,3 +1,19 @@
+<?php
+
+    if(isset($_POST['submit']))
+    {
+        include_once('config.php');
+
+        $nome = $_POST['nome'];
+        $sobrenome = $_POST['sobrenome'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+        $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,senha) VALUES ('$nome','$sobrenome','$email','$senha')");
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,30 +41,30 @@
                             <div class="title-form">
                                 <h3>Inscrever-se</h3>
                             </div>
-                            <form action="">
+                            <form action="register.php" method="POST">
                                 <div class="input">
                                     <img src="./files/img/user.png" alt="Nome do Usuário">
-                                    <input type="text" placeholder="Nome">
+                                    <input type="text" name="nome" placeholder="Nome" required minlength="2" maxlength="20">
                                 </div>
                 
                                 <div class="input">
                                     <img src="./files/img/user.png" alt="Sobrenome do usuário">
-                                    <input type="text" placeholder="Sobrenome">
+                                    <input type="text" name="sobrenome" placeholder="Sobrenome">
                                 </div>
                     
                                 <div class="input">
                                     <img src="./files/img/email.png" alt="Email do Usuário">
-                                    <input type="email" placeholder="Email">
+                                    <input type="email" name="email" placeholder="Email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)">
                                 </div>
                 
                                 <div class="input">
                                     <img src="./files/img/senha.png" alt="Senha">
-                                    <input type="password" placeholder="Crie uma senha">
+                                    <input type="password" name="senha" placeholder="Crie uma senha" required>
                                 </div>
 
                                 <div class="input">
                                     <img src="./files/img/senha.png" alt="Confirmação de senha">
-                                    <input type="password" placeholder="Confirme sua senha">
+                                    <input type="password" name="confirmacaosenha" placeholder="Confirme sua senha" required>
                                 </div>
     
                                 <div id="btn">
