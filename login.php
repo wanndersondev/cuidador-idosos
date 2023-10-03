@@ -1,3 +1,17 @@
+<?php
+
+    if(isset($_POST['submit']))
+    {
+        include_once('config.php');
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+        $result = mysqli_query($conexao, "INSERT INTO usuarios(email,senha) VALUES ('$email','$senha')");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,21 +39,19 @@
                             <div class="title-form">
                                 <h3>Login</h3>
                             </div>
-                            <form action="">
+                            <form action="valida_login.php" method="POST">
                                 <div class="input">
-                                    <img src="./files/img/email.png" alt="Email">
-                                    <input type="email" placeholder="Email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)">
+                                    <img src="./files/img/email.png" alt="Email do Usuário">
+                                    <input type="email" name="email" placeholder="Email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)">
                                 </div>
-                    
+                
                                 <div class="input">
                                     <img src="./files/img/senha.png" alt="Senha">
-                                    <input type="password" placeholder="Senha" required>
+                                    <input type="password" name="senha" placeholder="Crie uma senha" required>
                                 </div>
-
                                 <div id="btn">
                                     <input type="submit" id="btn-login-register" value="Fazer login">
                                 </div>
-
                                 <div class="options-register">
                                     <p>Não tem uma conta?</p>
                                     <a href="http://localhost/cuidador-idosos/register.php">Inscrever-se</a>

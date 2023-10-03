@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Verificando se as senhas coincidem
     if ($senha === $confirmacaosenha) {
       // Preparando a consulta SQL
-      $sql = "INSERT INTO usuarios (nome_usuario, sobrenome_usuario, email, senha, confirmacaosenha) VALUES ('$nome_usuario', '$sobrenome_usuario', '$email', '$senha',  '$confirmacaosenha')";
+      $sql = "INSERT INTO usuarios (nome_usuario, sobrenome_usuario, email, senha, confirmacaosenha) VALUES ('$nome_usuario', '$sobrenome_usuario', '$email', '$senha', '$confirmacaosenha')";
 
       // Executando a consulta
       if ($conexao->query($sql) === TRUE) {
@@ -25,7 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
       echo "As senhas não coincidem.";
     }
-  } else {
+  }
+  else {
     echo "Por favor, preencha todos os campos.";
   }
 } else {
